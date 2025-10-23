@@ -1,3 +1,5 @@
+import '../assets/css/cartItem.css'
+import '../assets/css/cart.css'
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { modifyQuantityOfAnItem, removeItemFromCart } from '../features/cart';

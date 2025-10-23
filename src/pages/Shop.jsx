@@ -1,4 +1,5 @@
 import React, { useState , useEffect} from 'react';
+import '../assets/css/shop.css'
 import {db} from '../../firebase';
 import { getDocs, collection } from 'firebase/firestore';
 import ProductCard from '../components/ProductCard';
