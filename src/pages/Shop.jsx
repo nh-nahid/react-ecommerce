@@ -16,7 +16,6 @@ const Shop = () => {
                     ...doc.data()
                 }
             ));
-            console.log(filteredData)
             setProducts(filteredData)
         }
         getProducts()

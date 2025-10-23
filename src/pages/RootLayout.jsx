@@ -5,7 +5,6 @@ const RootLayout = () => {
     return (
         <>
             <div id='sidebar'>
-                <h1>React Router Contacts</h1>
                 <Nav />
         </div>
         <div id='detail'>

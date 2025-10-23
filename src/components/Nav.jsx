@@ -7,10 +7,10 @@ const Nav = () => {
                 <Link to='/'>Home</Link>
             </li>
             <li>
-                <Link to='/about'>About</Link>
+                <Link to='/shop'>Shop</Link>
             </li>
             <li>
-                <Link to='/team'>Team</Link>
+                <Link to='/cart'>Cart</Link>
             </li>
        </ul>
     );

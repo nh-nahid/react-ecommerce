@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-     This is home page
+        <h1>Please visit shop page</h1>
     </>
   )
 }
