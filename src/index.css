@@ -56,45 +56,8 @@ button:active {
   transform: translateY(1px);
 }
 
-#contact h1 {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-}
-#contact h1 form {
-  display: flex;
-  align-items: center;
-  margin-top: 0.25rem;
-}
-#contact h1 form button {
-  box-shadow: none;
-  font-size: 1.5rem;
-  font-weight: 400;
-  padding: 0;
-}
-#contact h1 form button[value="true"] {
-  color: #a4a4a4;
-}
-#contact h1 form button[value="true"]:hover,
-#contact h1 form button[value="false"] {
-  color: #eeb004;
-}
 
-form[action$="destroy"] button {
-  color: #f44250;
-}
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
 
 #root {
   height: 100%;
@@ -114,14 +77,13 @@ form[action$="destroy"] button {
 }
 
 #sidebar h1 {
-  font-size: 1rem;
+  font-size: 1.5 rem;
   font-weight: 500;
   display: flex;
   align-items: center;
   margin: 0;
   padding: 1rem 2rem;
   border-top: 1px solid #e3e3e3;
-  order: 1;
   line-height: 1;
 }
 
@@ -177,7 +139,7 @@ form[action$="destroy"] button {
   }
 }
 
-#sidebar nav {
+/* #sidebar nav {
   flex: 1;
   overflow: auto;
   padding-top: 1rem;
@@ -235,7 +197,7 @@ i {
 
 #sidebar nav a.pending {
   color: hsl(224, 98%, 58%);
-}
+} */
 
 #detail {
   flex: 1;

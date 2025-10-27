@@ -1,7 +1,6 @@
-import React from 'react';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../features/cart';
-
+ 
 const ProductCard = ({ product }) => {
     const dispatch = useDispatch();
     return (
@@ -21,7 +20,7 @@ const ProductCard = ({ product }) => {
             </div>
             <div className="ingredient_btn">
                 <button
-                    onClick={(e) => {dispatch(addToCart(product))}} className='btn-white'>
+                    onClick={() => {dispatch(addToCart(product))}} className='btn-white'>
                         ADD TO CART
                     </button>
             </div>
